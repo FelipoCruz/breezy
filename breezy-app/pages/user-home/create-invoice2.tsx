@@ -13,7 +13,7 @@ function CreateInvoice() {
     <>
       <main aria-labelledby='create-invoice' >
         <h1 className='invisible-heading-create-invocie'>Create Invoice</h1>
-        <title>Breezy app - Create invoice</title>
+        <title>Breezy app Dep - Create invoice</title>
         <Sidebar />
         <InvoiceForm />
       </main>

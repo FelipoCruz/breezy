@@ -2,7 +2,7 @@
 
 import { invoiceFields } from './types';
 
-const uri = 'http://localhost:3000';
+const uri = 'https://breezy-delta.vercel.app';
 
 export async function getData(id: String) {
   console.log('user id in dataFetch module is :', id)

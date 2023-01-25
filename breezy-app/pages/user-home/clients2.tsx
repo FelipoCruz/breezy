@@ -21,7 +21,7 @@ function Clients2() {
     <>
       <main aria-labelledby='clients-view' >
         <h1 className='invisible-heading-clients'>Clients</h1>
-        <title>Breezy app - Clients</title>
+        <title>Breezy app Dep - Clients</title>
         <Sidebar />
         {invoices?.map((data: invoiceFields) => (
           <div key={String(data._id)}>
