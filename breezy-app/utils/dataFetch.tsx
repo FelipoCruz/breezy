@@ -15,6 +15,7 @@ export async function getData(id: String) {
   }  
 }
 
+
 export async function getDataById(id: String) {
   try {
     const res = await fetch(`${uri}/api/${id}`);
